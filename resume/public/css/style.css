@@ -31,6 +31,403 @@
  * -----------------------------------------------------------------------------
  */
 
+ /* @font-face {
+	font-family: 'Fontastic';
+	src:url('Fontastic.eot');
+	src:url('Fontastic.eot?#iefix') format('embedded-opentype'),
+		url('Fontastic.woff') format('woff'),
+		url('Fontastic.ttf') format('truetype'),
+		url('Fontastic.svg#Fontastic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} */
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Fontastic';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: auto;
+}
+
+
+ @font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+.progress {
+    height: 6px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f2f3f7;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #2c98f0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    overflow: visible;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    background: #2c98f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.progress-bar span {
+    position: absolute;
+    top: -22px;
+    right: 0;
+}
+
+.progress-bar.color-1 {
+    background: #2c98f0;
+}
+
+.progress-bar.color-1:after {
+    background: #2c98f0;
+}
+
+.progress-bar.color-1 span {
+    color: #2c98f0;
+}
+
+.progress-bar.color-2 {
+    background: #ec5453;
+}
+
+.progress-bar.color-2:after {
+    background: #ec5453;
+}
+
+.progress-bar.color-2 span {
+    color: #ec5453;
+}
+
+.progress-bar.color-3 {
+    background: #f9bf3f;
+}
+
+.progress-bar.color-3:after {
+    background: #f9bf3f;
+}
+
+.progress-bar.color-3 span {
+    color: #f9bf3f;
+}
+
+.progress-bar.color-4 {
+    background: #a84cb8;
+}
+
+.progress-bar.color-4:after {
+    background: #a84cb8;
+}
+
+.progress-bar.color-4 span {
+    color: #a84cb8;
+}
+
+.progress-bar.color-5 {
+    background: #2fa499;
+}
+
+.progress-bar.color-5:after {
+    background: #2fa499;
+}
+
+.progress-bar.color-5 span {
+    color: #2fa499;
+}
+
+.progress-bar.color-6 {
+    background: #4054b2;
+}
+
+.progress-bar.color-6:after {
+    background: #4054b2;
+}
+
+.progress-bar.color-6 span {
+    color: #4054b2;
+}
+
+.progress-bar.color-7 {
+    background: #35c4c9;
+}
+
+.progress-bar.color-7:after {
+    background: #35c4c9;
+}
+
+.progress-bar.color-7 span {
+    color: #35c4c9;
+}
+
+.progress-bar.color-8 {
+    background: #40b24f;
+}
+
+.progress-bar.color-8:after {
+    background: #40b24f;
+}
+
+.progress-bar.color-8 span {
+    color: #40b24f;
+}
+
+.progress-bar.color-9 {
+    background: #dd1d1d;
+}
+
+.progress-bar.color-9:after {
+    background: #dd1d1d;
+}
+
+.progress-bar.color-9 span {
+    color: #dd1d1d;
+}
+
+.progress-bar.color-10 {
+    background: #c2d328;
+}
+
+.progress-bar.color-10:after {
+    background: #c2d328;
+}
+
+.progress-bar.color-10 span {
+    color: #c2d328;
+}
+
+.colorlib-feature {
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.colorlib-feature .colorlib-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.colorlib-feature .colorlib-icon i {
+    display: table-cell;
+    vertical-align: middle;
+    color: #2c98f0;
+    font-size: 60px;
+    height: 100px;
+}
+
+
+.colorlib-feature .colorlib-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.colorlib-feature .colorlib-icon i {
+    display: table-cell;
+    vertical-align: middle;
+    color: #2c98f0;
+    font-size: 60px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .colorlib-feature .colorlib-icon i {
+        font-size: 40px;
+    }
+}
+
+.colorlib-feature .colorlib-text {
+    padding-left: 120px;
+    width: 100%;
+}
+
+.colorlib-feature .colorlib-text h2,
+.colorlib-feature .colorlib-text h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.colorlib-feature .colorlib-text h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.colorlib-feature.colorlib-feature-sm .colorlib-text {
+    margin-top: 30px;
+}
+
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+    color: #2c98f0;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+        font-size: 28px;
+    }
+}
+
+.blog-entry {
+    width: 100%;
+    float: left;
+    background: #fff;
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-entry {
+        margin-bottom: 3em;
+    }
+}
+
+.blog-entry .blog-img {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 25px;
+}
+
+.blog-entry .blog-img img {
+    position: relative;
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.blog-entry .desc h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: auto;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.blog-entry .desc h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.blog-entry .desc span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.blog-entry .desc span small i {
+    color: #999999;
+}
+
+.blog-entry .desc .lead {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.blog-entry:hover .blog-img img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.work-menu span {
+    margin-left: 10px;
+}
+
+.work-menu span:first-child {
+    margin-left: 0;
+}
+
+.work-menu span a {
+    color: #000;
+}
+
+.work-menu span a.active {
+    color: #2c98f0;
+}
+
+.project {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
 body {
     margin: 0;
     padding: 0;

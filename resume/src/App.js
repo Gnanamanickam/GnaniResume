@@ -8,6 +8,7 @@ import Experience from "./Component/Experience";
 import Skill from "./Component/Skill";
 import Blog from "./Component/Blog";
 import Contact from "./Component/Contact";
+import Education from "./Component/Education"
 
 
 // import "assets/vendor/nucleo/css/nucleo.css";
@@ -21,9 +22,10 @@ function App() {
         <div id="colorlib-main">
           <HomePage></HomePage>
           <About></About>
+          <Education></Education>
           <Experience></Experience>
           <Skill></Skill>
-          <Blog></Blog>
+          {/* <Blog></Blog> */}
           <Contact></Contact>
         </div>
     </div>

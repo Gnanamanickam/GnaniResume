@@ -1,52 +1,38 @@
 import React from 'react';
+import Animation from "./Animation";
+import web from "../Assets/web.json"
 
 const About = () => {
 
     return (
-        <div id="about" className="single-section about-area">
-            {/* <div className="container">
-                <div className="row">
-                    <div className="col-sm-12 col-lg-6">
-                        <div className="about-img">
-                            <img src="images/about-image.png" alt=""/>
+        <div className="right-side-area">
+            <div id="about" className="single-section about-area">
+                <div className="container">
+                    <div className="row">
+
+                        <div className="col-sm-12 col-lg-6">
+                        {/* <Animation animationData={web} /> */}
+                        <img src="images/about.png" alt="about" className="img-fluid" />
                         </div>
-                    </div>
-                    <div className="col-sm-12 col-lg-6">
-                        <div className="about-content">
-                            <div className="section-heading">
-                                <h2 className="section-title">About Me</h2>
-                                <h6 className="about-role">I am a Full-Stack Web Developer</h6>
+
+                        <div className="col-sm-12 col-lg-6">
+                            <div className="about-content">
+
+                                <div className="section-heading">
+                                    <h2 className="section-title">About Me</h2>
+                                    <h6 className="about-role">I am a Full-Stack Developer</h6>
+                                </div>
+
+                                <p>👋Hi! I’m Gnani.</p>
+                                <p> I’m currently a Graduate Student in Computer Science at the University of Illinois at Chicago. I design and build Applications . Please feel free to contact me below </p>
                             </div>
-                            <p>Sed ut perspiciatis unde accusantium doloremque laudantium,totam rem aperiam.</p>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
-                            <ul className="list-inline about-info">
-                                <li>
-                                    <span>Name:</span>
-                                    <p>Sadiq Siddiqui</p>
-                                </li>
-                                <li>
-                                    <span>Email:</span>
-                                    <p>
-                                        <a href="mailto:sadiq@example.com">sadiq@example.com</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>Age:</span>
-                                    <p>25</p>
-                                </li>
-                                <li>
-                                    <span>From:</span>
-                                    <p>Liverpool, United Kingdom</p>
-                                </li>
-                            </ul>
-                            <a href="#0" className="btn button-scheme">Resume</a>
-                            <a href="#experience" className="btn scroll">Experience</a>
+                            <a className="btn scroll button-scheme" href="#contact">Contact Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
-        </div>
-    )
+            </div>
+            );
 }
 
-export default About;
+            export default About;

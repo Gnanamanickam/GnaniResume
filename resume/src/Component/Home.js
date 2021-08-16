@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { Fade } from 'react-reveal';
 import { Button, Container, Row, Col } from "reactstrap";
-import animationData from "../Assets/AnimationData.json"
+import animation from "../Assets/animation.json"
 
 import Animation from "./Animation";
 
@@ -14,8 +14,7 @@ const HomePage = () => {
     return (
         <Fade top duration={1000} distance="40px">
             <main ref="main">
-                <div className="right-side-area">
-                    <div id="home" className="home-area wave-area">
+                <div id="home" className="right-side-area home-area wave-area">
                         <div className="water-effect"></div>
                         <div className="container h-100">
                             <div className="row h-100 align-items-center justify-content-center">
@@ -31,20 +30,21 @@ const HomePage = () => {
                                         </span>
                                     </h1>
                                     <p className="description">A passionate Full Stack Developer having an experience of building applications and work experience of over 4 years </p>
-                                    <div className="button-area">
-                                        <a className="btn scroll" href="resume/src/Assets/Resume.pdf">Download Resume</a>
-                                        <a className="btn scroll button-scheme" href="#contact">Contact Me</a>
+                                    <div className="button-area" style={{position: "relative", zIndex: "100002"}}>
+                                        <Button style={{position: "relative", zIndex: "100000"}} className="btn-primary" href="Resume.pdf">Download Resume</Button>
+                                        <Button style={{position: "relative", zIndex: "100001"}} className="btn-primary button-scheme" href="#contact">Contact Me</Button>
                                     </div>
+                                </div>
+                                <div className="col-12 col-md-4 col-lg-4 home-content text-center">
+                                <img src="images/home.svg" alt="about" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
-                        <div className="col px-0">
-                            <Row>
-                                <Col lg="6">
-                                    <Animation animationData={animationData} />
-                                </Col>
-                            </Row>
-                            <div className="separator separator-bottom separator-skew">
+
+                        {/* <div class="col-sm-12 col-lg-6">
+                                    <Animation animationData={animation} />
+                                    </div> */}
+                            {/* <div className="separator separator-bottom separator-skew">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     preserveAspectRatio="none"
@@ -58,9 +58,7 @@ const HomePage = () => {
                                         points="2560 0 2560 100 0 100"
                                     />
                                 </svg>
-                            </div>
-                        </div>
-                    </div>
+                </div> */}
                 </div>
             </main>
         </Fade>

@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import Lottie from 'react-lottie';
-import Loading from './Loading'
+import Loading from '../Containers/Loading'
 
 const Animation = ({Data}) => {
     const defaultOptions = {

@@ -2,8 +2,7 @@
 import React, { useState } from "react";
 // import Navbar from "react-bootstrap/Navbar";
 // import Nav from "react-bootstrap/Nav";
-// import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 const Sidebar = () => {
     return (
@@ -35,68 +34,77 @@ const Sidebar = () => {
                         <ul id="menu_scroll" className="navbar-nav side-menu">
                             <li>
                                 <a href="#home" className="scroll active">
-                                    <span className="icon-home-house-streamline"></span>
+                                    <span className="icon-home-house-streamline" style={{top: "10px"}}></span>
                                     Home
                                 </a>
                             </li>
                             <li>
                                 <a href="#about" className="scroll">
-                                    <span className="icon-map-streamline-user"></span>
+                                    <span className="icon-map-streamline-user" style={{top: "10px"}}></span>
                                     About
                                 </a>
                             </li>
                             <li>
+                                <a href="#education" className="scroll">
+                                    <span className="icon-book-read-streamline" style={{top: "10px"}}></span>
+                                    Education
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#experience" className="scroll">
-                                    <span className="icon-dashboard-speed-streamline"></span>
+                                    <span className="icon-dashboard-speed-streamline" style={{top: "10px"}}></span>
                                     Experience
                                 </a>
                             </li>
                             <li>
                                 <a href="#skills" className="scroll">
-                                    <span className="icon-speech-streamline-talk-user"></span>
+                                    <span className="icon-settings-streamline-1" style={{top: "10px"}}></span>
                                     Skills
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#blog" className="scroll">
                                     <span className="icon-design-graphic-tablet-streamline-tablet"></span>
                                     Blog
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#contact" className="scroll">
-                                    <span className="icon-speech-streamline-talk-user"></span>
+                                    <span className="icon-speech-streamline-talk-user" style={{top: "10px"}}></span>
                                     Contact
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+                <span />
+                <span />
+                <span />
                 <div className="btn-wrapper text-lg">
-                <ul class="header-social-icons">
+                <ul className="header-social-icons">
                             <li>
                                 <a href="https://www.facebook.com/Gnanamanickam.A" target="_blank" title="Facebook">
-                                    <i class="fa fa-facebook-square"></i>
+                                    <i className="fa fa-facebook-square"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/imGmanick" target="_blank" title="Twitter">
-                                    <i class="fa fa-twitter"></i>
+                                    <i className="fa fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/gnanamanickam/" target="_blank" title="Instagram">
-                                    <i class="fa fa-instagram"></i>
+                                    <i className="fa fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/Gnanamanickam" target="_blank" title="Github">
-                                    <i class="fa fa-github"></i>
+                                    <i className="fa fa-github"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/gnanamanickam/" target="_blank" title="LinkedIn">
-                                    <i class="fa fa-linkedin"></i>
+                                    <i className="fa fa-linkedin"></i>
                                 </a>
                             </li>
                         </ul>

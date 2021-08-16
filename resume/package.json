@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "argon-design-system-react": "^1.1.0",
     "bootstrap": "^5.1.0",
+    "colorthief": "^2.3.2",
     "custom": "0.0.0",
     "fontawesome5-webfont": "^5.0.4",
     "headline": "^1.0.1",
@@ -56,6 +57,7 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^6.2.0"
+    "css-loader": "^6.2.0",
+    "eslint-plugin-react": "^7.24.0"
   }
 }
