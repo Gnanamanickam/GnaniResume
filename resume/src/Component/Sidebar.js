@@ -12,7 +12,7 @@ const Sidebar = () => {
                 <div className="header-content">
                     <div className="image-item">
                         <div className="status active"></div>
-                        <img src="/GnaniResume/images/Gnani.jpg" alt="" />
+                        <img src="images/Gnani.jpg" alt="" />
                     </div>
                     <div className="caption-area">
                         <h5 className="name">Gnani</h5>

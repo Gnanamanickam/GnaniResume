@@ -12,7 +12,7 @@ const About = () => {
 
                         <div className="col-sm-12 col-lg-6">
                         {/* <Animation animationData={web} /> */}
-                        <img src="/GnaniResume/images/about.png" alt="about" className="img-fluid" />
+                        <img src="images/about.png" alt="about" className="img-fluid" />
                         </div>
 
                         <div className="col-sm-12 col-lg-6">
