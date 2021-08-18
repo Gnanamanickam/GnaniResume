@@ -17,7 +17,7 @@ const Skill = () => {
                                 <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap"  style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Java</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-1" role="progressbar" aria-valuenow="75"
@@ -27,7 +27,7 @@ const Skill = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Spring</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-2" role="progressbar" aria-valuenow="60"
@@ -37,7 +37,7 @@ const Skill = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Angular</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-3" role="progressbar" aria-valuenow="85"
@@ -47,7 +47,7 @@ const Skill = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>React</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-4" role="progressbar" aria-valuenow="90"
@@ -57,7 +57,7 @@ const Skill = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Node.js</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-5" role="progressbar" aria-valuenow="70"
@@ -67,7 +67,7 @@ const Skill = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>MySQL</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-6" role="progressbar" aria-valuenow="80"
@@ -78,7 +78,7 @@ const Skill = () => {
                                 </div>
 
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Oracle DB</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-7" role="progressbar" aria-valuenow="80"
@@ -89,7 +89,7 @@ const Skill = () => {
                                 </div>
 
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Python</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-8" role="progressbar" aria-valuenow="80"
@@ -100,7 +100,7 @@ const Skill = () => {
                                 </div>
 
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>HTML5</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-9" role="progressbar" aria-valuenow="80"
@@ -111,7 +111,7 @@ const Skill = () => {
                                 </div>
 
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="progress-wrap">
+                                    <div className="progress-wrap" style={{ bottom: "10px"}}>
                                         <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>CSS</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-10" role="progressbar" aria-valuenow="80"
