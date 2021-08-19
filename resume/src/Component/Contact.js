@@ -1,15 +1,56 @@
 import React from 'react';
+import { useState } from 'react';
+import { send } from 'emailjs-com';
 
 const Contact = () => {
+
+    const [toSend, setToSend] = useState({
+        name: '',
+        subject: '',
+        message: '',
+        email: '',
+    });
+
+    // const handleChange = (e) => {
+    //     // console.log(e.target.value);
+    //     setToSend(
+    //         { ...toSend, [e.target.name]: e.target.value }
+    //     );
+    //     console.log(toSend);
+    // };
+
+    const handleChange = (event) => {
+        setToSend((prevProps) => ({
+          ...prevProps,
+          [event.target.name]: event.target.value
+        }));
+        console.log(toSend);
+      };
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        send(
+          'gnani_email',
+          'gnani_template',
+          toSend,
+          'user_aA3lIETJksxdyZiDHoNie'
+        )
+          .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+          })
+          .catch((err) => {
+            console.log('FAILED...', err);
+          });
+      };
 
     return (
         <div className="right-side-area">
             <div id="contact" className="single-section about-area">
                 <div className="container">
-                <div className="d-flex px-3">
-                    <div className="section-heading">
-                        <h2 className="section-title">Contact</h2>
-                    </div>
+                    <div className="d-flex px-3">
+                        <div className="section-heading">
+                            <h2 className="section-title">Contact</h2>
+                        </div>
                     </div>
                     <div className="row">
                         <div className="col-md-5">
@@ -45,19 +86,19 @@ const Contact = () => {
                                 <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
                                     <form action="">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Name" />
+                                            <input type="text" className="form-control" placeholder="Name" id="name" name="name" onChange={handleChange} />
                                         </div>
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Email" />
+                                            <input type="text" className="form-control" placeholder="Email" id="email" name="email" onChange={handleChange} />
                                         </div>
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Subject" />
+                                            <input type="text" className="form-control" placeholder="Subject" id="subject" name="subject" onChange={handleChange} />
                                         </div>
                                         <div className="form-group">
-                                            <textarea name="" id="message" cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
+                                            <textarea name="" id="message" cols="30" rows="7" className="form-control" id="message" name="message" placeholder="Message" onChange={handleChange}></textarea>
                                         </div>
                                         <div className="form-group">
-                                            <input type="submit" className="btn btn-primary btn-send-message" value="Send Message" />
+                                            <input type="submit" className="btn btn-primary btn-send-message" value="Send Message" onClick={sendEmail} />
                                         </div>
                                     </form>
                                 </div>
