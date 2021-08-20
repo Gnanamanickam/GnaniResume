@@ -39,7 +39,7 @@ const EducationCard = ({data}) => {
                     <CardTitle tag="h5" style={{ width: "280px", height: "50px" }}>{data.course}</CardTitle>
                     <CardSubtitle>{data.date}</CardSubtitle>
                     <CardText className="description my-3 text-center">
-                        { data . grade }
+                        { data.grade }
                         <ul>
                             {
                                 data.descBullets ? 

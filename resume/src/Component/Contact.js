@@ -74,7 +74,7 @@ const Contact = () => {
 
                             <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                                 <div className="colorlib-icon">
-                                    <i className="fa-mobile-phone"></i>
+                                    <i className="fa-phone"></i>
                                 </div>
                                 <div className="colorlib-text">
                                     <p><a href="tel://">+1(312)468-3355</a></p>

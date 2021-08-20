@@ -24,7 +24,7 @@ const About = () => {
                                 </div>
 
                                 <p>👋Hi! I’m Gnani.</p>
-                                <p> I’m currently a Graduate Student in Computer Science at the University of Illinois at Chicago. I design and build Applications . Please feel free to contact me below </p>
+                                <p> I’m currently a Graduate Student in Computer Science at the University of Illinois at Chicago. I'm a software engineer specialised in frontend and backend development for complex scalable web apps.. Please feel free to contact me below </p>
                             </div>
                             <a className="btn scroll button-scheme" href="#contact">Contact Me</a>
                             </div>
