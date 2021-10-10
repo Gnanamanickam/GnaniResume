@@ -58,7 +58,7 @@ const Skill = () => {
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft" style={{ marginTop: "20px"}}>
                                     <div className="progress-wrap" >
-                                        <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Node.js</h4>
+                                        <h4 style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px" }}>Scala</h4>
                                         <div className="progress">
                                             <div className="progress-bar color-5" role="progressbar" aria-valuenow="70"
                                                 aria-valuemin="0" aria-valuemax="100" style={{ width: "75%" }}>
