@@ -64,7 +64,7 @@ const Sidebar = () => {
                             </li>
                             {/* <li>
                                 <a href="#blog" className="scroll">
-                                    <span className="icon-design-graphic-tablet-streamline-tablet"></span>
+                                    <span className="icon-design-graphic-tablet-streamline-tablet" style={{top: "10px"}}></span>
                                     Blog
                                 </a>
                             </li> */}
